@@ -1,0 +1,19 @@
+{
+    "display": {
+      "background": "minecraft:textures/block/copper_block.png",
+      "icon": {
+        "item": "minecraft:command_block"
+      },
+      "title": "Journey Begins",
+      "description": "Maybe it is a start of something beautiful?",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "journey_begins": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
