@@ -1,0 +1,78 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace",
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+      },
+      "title": "Wannabe Avatar",
+      "description": "Trying to master all elements? Nice try.",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "lazy_nerds:journey_begins",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:ancient_debris"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:quartz"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:emerald"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:diamond"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:redstone"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:raw_gold"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:raw_iron"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:lapis_lazuli"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:raw_copper"
+              ]
+            },
+            {
+              "items": [
+                "minecraft:coal"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 1000
+    }
+  }
+  
